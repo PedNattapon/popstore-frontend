@@ -6,9 +6,8 @@ import Wishlish from "./Wishlist"
 
 const Navbar = () => {
   return (
-    <nav>
-        <div className="container flex flex-col justify-between py-5 sm:flex-row">
-            <div className="flex gap-2 text-sm">
+    <nav className="layout_header grid grid-cols-3 items-center px-2 py-2 gap-4 sm:flex-row">
+        <div className="header_listContainer flex items-center gap-4 text-sm">
                 <span>HOME</span>
                 <span>GAMES</span>
                 <span>CONSOLE</span>
@@ -16,22 +15,23 @@ const Navbar = () => {
                 <span>ACCESORIES</span>
             </div>
             {/* Logo */}
+            <div className="flex justify-center">
             <Logo />
-            {/* Search */}
-            <div className="flex-none">
-            <Search/>
             </div>
+            {/* Search */}
+            <div className="header_searchContainer flex flex-row items-center justify-end gap-4 py-5">
+            <Search/>
             {/* Profile */}
-            <div className="flex-col text-xs">
-                <span>Log in | Create Account</span>
-                <div className="felx-col">
+            <div className="header_inforBlock flex flex-col items-end gap-2">
+                    <span className="text-xs">Log in | Create Account</span>
+                    <div className="flex items-center gap-2 relative">
                     <Wishlish/>
-                <Button>
-                <Cart/>
-                </Button>
+                    <Button className="flex-shrink-0">
+                    <Cart/>
+                    </Button>
+                    </div>
                 </div>
             </div>
-        </div>
     </nav>
   )
 }

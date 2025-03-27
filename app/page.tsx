@@ -1,14 +1,13 @@
+import Button from "@/components/ui/Button"
+
 const page = () => {
   return (
-    <nav>
-      <div>
-        {/* Logo */}
-        
-        {/* Search */}
-        {/* Profiles */}
-      </div>
-    </nav>
-    
+   <>
+   
+   <div>
+    <Button>page</Button>
+   </div>
+   </>
   )
 }
 export default page

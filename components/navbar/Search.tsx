@@ -46,9 +46,9 @@ const Search = () => {
         <input
         type="text"
         placeholder={text}
-        className="outline-none placeholder-gray-400 bg-transparent w-24"
+        className="outline-none placeholder-gray-400 bg-transparent w-26"
         />
-        <div className="border-l border-black h-4 mx-3"></div>
+        <div className="border-l border-black h-6 mx-3"></div>
         <button className="text-sm underline hover:text-gray-500">Search</button>
         
     </div>
