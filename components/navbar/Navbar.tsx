@@ -1,6 +1,8 @@
 import Logo from "./Logo"
 import Search from "./Search"
 import Cart from "./Cart"
+import Button from "@/components/ui/Button"
+import Wishlish from "./Wishlist"
 
 const Navbar = () => {
   return (
@@ -22,7 +24,12 @@ const Navbar = () => {
             {/* Profile */}
             <div className="flex-col text-xs">
                 <span>Log in | Create Account</span>
+                <div className="felx-col">
+                    <Wishlish/>
+                <Button>
                 <Cart/>
+                </Button>
+                </div>
             </div>
         </div>
     </nav>

@@ -42,7 +42,7 @@ const Search = () => {
     };
 
   return (
-    <div className="flex items-center border-[2px] border-b-7 border-black rounded-[12px] shadow-md px-3 py-0.5 text-xl">
+    <div className="flex items-center border-[3px] border-b-7 border-black rounded-[12px] shadow-md px-3 py-0.5 text-xl">
         <input
         type="text"
         placeholder={text}

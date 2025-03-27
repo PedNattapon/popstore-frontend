@@ -5,3 +5,9 @@
     @apply px-4 mx-auto
   }
 }
+
+@layer utilities {
+  .active\:border-b-3:active {
+    border-bottom-width: 3;
+  }
+}
