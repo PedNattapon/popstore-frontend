@@ -5,9 +5,10 @@ const Wishlist = () => {
     <Image
             src="/assets/icons/Wishlist.png"
             alt="Wishlist"
-            width={35}
+            width={40}
             height={0}
-            className="cursor-pointer"
+            className="cursor-pointer active:shadow-none active:scale-85
+    transition duration-60 ease-in-out"
             />
   )
 }

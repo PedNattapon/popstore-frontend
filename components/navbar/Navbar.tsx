@@ -6,7 +6,7 @@ import Wishlish from "./Wishlist"
 
 const Navbar = () => {
   return (
-    <nav className="layout_header grid grid-cols-3 items-center px-2 py-2 gap-4 sm:flex-row">
+    <nav className="layout_header grid grid-cols-3 items-center px-2 bg-white gap-4 sm:flex-row">
         <div className="header_listContainer flex items-center gap-4 text-sm">
                 <span>HOME</span>
                 <span>GAMES</span>
