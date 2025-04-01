@@ -11,6 +11,7 @@ const logo = () => {
             width={157}
             height={66}
             className="cursor-pointer"
+            draggable={false}
             />
         </Link>
     </div>

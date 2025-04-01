@@ -1,5 +1,5 @@
 import Logo from "./Logo"
-import Search from "./Search"
+import Search from "./Searchbar"
 import Cart from "./Cart"
 import Button from "@/components/ui/Button"
 import Wishlish from "./Wishlist"
